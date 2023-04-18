@@ -1,0 +1,68 @@
+.titre{
+    margin-left: 42%;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(92, 37, 9);
+}
+.boite{
+    position: relative;
+    left: 450px;
+    width: 733px;
+    background-image: url(../image/plateau.jpg);
+}
+.img2{
+    /*float: left;*/
+    margin-top: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+.img1{
+    /*float: left;*/
+    margin-top: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+.entete{
+    display: flex;
+}
+#soratra_mena{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 300px;
+    position: absolute;
+    padding-left: 45px;
+    left: 37%;
+    top: 351px;
+    visibility: hidden;
+}
+#soratra_manga{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 300px;
+    position: absolute;
+    padding-left: 45px;
+    left: 37%;
+    top: 351px;
+    visibility: hidden;
+}
+.mena{
+    color: white;
+}
+.manga{
+    font-size: 31px;
+    color: black;
+}
+#img_close{
+    width: 25px;
+    position: absolute;
+    left: 61%;
+    top: 351px;
+    visibility: hidden;
+}
+#img_close:hover{
+    background-color: red;
+}
+.can{
+    position: relative;
+    left: 50PX;
+}
